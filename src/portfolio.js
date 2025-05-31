@@ -23,7 +23,7 @@ const greeting = {
   username: "Rafa Ramos",
   title: "¡Saludos! Soy Rafa",
   subTitle: emoji(
-    "Apasionado por los puzzles y la programación 🚀 tengo experiencia en la creación de aplicaciónes con JavaScript / Reactjs / Nodejs, con ganas de aprender de nuevos frameworks y librerias. Me encantan los retos a la hora de usar herramientas de bajo o nulo costo, creando Software adaptado a las necesidades y presupuesto del cliente."
+    "Apasionado por los acertijos y la programación 🚀 tengo experiencia en la creación de aplicaciónes con JavaScript / Reactjs / Nodejs, con ganas de aprender de nuevos frameworks y librerias. Me encantan los retos a la hora de usar herramientas de bajo o nulo costo, creando Software adaptado a las necesidades y presupuesto del cliente."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ZPHXG4fbDP5D5Rd2sXJvcq8nLSvqt8s_/view?usp=sharing", // Set to empty to hide the button
