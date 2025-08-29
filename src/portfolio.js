@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Rafa Ramos",
-  title: "¡Saludos! Soy Rafa",
+  title: "Mucho gusto, soy Rafa",
   subTitle: emoji(
-    "Apasionado por los acertijos y la programación 🚀 tengo experiencia en la creación de aplicaciónes con JavaScript / Reactjs / Nodejs, con ganas de aprender de nuevos frameworks y librerias. Me encantan los retos a la hora de usar herramientas de bajo o nulo costo, creando Software adaptado a las necesidades y presupuesto del cliente."
+    "Tengo experiencia en la creación de aplicaciónes con React.js y Laravel, asi como Dashboards y visualización de datos. Me preocupo por la creación de software adaptado a las necesidades y presupuesto del cliente."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ZPHXG4fbDP5D5Rd2sXJvcq8nLSvqt8s_/view?usp=sharing", // Set to empty to hide the button
@@ -52,7 +52,7 @@ const skillsSection = {
   subTitle: "Desde lenguajes de programación hasta macros en Excel, pasando por Bases de Datos y formularios multiplataforma. Donde se puede aplicar lógica, es una oportunidad para crear algo útil. 💡",
   skills: [
     emoji(
-      "⚡ Desarrollo de aplicaciones web con JavaScript, ReactJS, NodeJS y ExpressJS"
+      "⚡ Desarrollo de aplicaciones web con JavaScript (ReactJS, NodeJS y ExpressJS) y PHP (Laravel)"
     ),
     emoji("⚡ Creación y administración de bases de datos SQL y NoSQL"),
     emoji(
@@ -73,10 +73,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -87,6 +83,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "npm",
@@ -197,7 +197,6 @@ const bigProjects = {
           name: "Descargar ejecutable en Google Drive",
           url: "https://drive.google.com/file/d/19oFZdyiPGRUfeKnB9PhhGnbBjybBez9z/view?usp=sharing"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -208,6 +207,17 @@ const bigProjects = {
         {
           name: "Ver Sitio Web",
           url: "https://preview-website-chi.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/tableauRedian.png"),
+      projectName: "Dashboard de Tableau - Análisis de Datos de Datos de Nutrición Infantil",
+      projectDesc: "Un dashboard interactivo desarrollado en Tableau para visualizar y analizar datos del Registro Digital de Actividades de Nutrición (REDI-AN), implementado en 6 Gestores de Salud de Honduras por el proyecto USAID/FTF.",
+      footerLink: [
+        {
+          name: "Ver Sitio Web",
+          url: "https://public.tableau.com/views/REDI-ANGestorMacuelizo_17298056040400/TableroIndicadores1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
         }
       ]
     },
